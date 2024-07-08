@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+
+h1 {
+    text-align: center; /* Centra el texto del título */
+    margin-bottom: 20px; /* Espacio adicional debajo del título */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.signature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px; /* Ajusta el ancho del cuadro de la firma */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Espacio alrededor del contenedor */
+    background-color: white;
+    border-radius: 10px; /* Borde redondeado de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave al contenedor */
+}
+
+label {
+    margin-bottom: 10px; /* Espacio entre la etiqueta y el canvas */
+}
+
+canvas {
+    margin-bottom: 10px; /* Espacio adicional debajo del canvas para separar de los botones */
+    border-radius: 10px; /* Borde redondeado de 5px */
+    background-color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones debajo del canvas */
+    width: 100%; /* Asegura que el contenedor de botones use todo el ancho disponible */
+    margin-top: 10px; /* Espacio adicional encima de los botones si es necesario */
+}
+
+.button-container button {
+    margin-left: 15px; /* Espacio entre los botones */
+    padding: 6px 22px; /* Aumenta el padding para hacer los botones más grandes */
+    background-color: #6a5acd; /* Fondo violeta oscuro para los botones */
+    color: white; /* Texto blanco para los botones */
+    border: none; /* Elimina el borde de los botones */
+    border-radius: 10px; /* Borde redondeado de los botones */
+    font-size: 16px; /* Tamaño de fuente de los botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+}
+
+footer {
+    position: fixed; /* Fija el pie de página en la parte inferior de la ventana gráfica */
+    left: 0; /* Alinea el pie de página a la izquierda */
+    bottom: 0; /* Alinea el pie de página en la parte inferior */
+    width: 100%; /* Asegura que el pie de página use todo el ancho disponible */
+    background-color: #6a5acd; /* Fondo violeta oscuro para el pie de página */
+    color: white; /* Texto blanco para el pie de página */
+    text-align: center; /* Centra el texto del pie de página */
+    padding: 10px 0; /* Espacio alrededor del texto del pie de página */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
